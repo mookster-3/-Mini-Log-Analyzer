@@ -95,6 +95,22 @@ The program analyzes timestamps of failed login attempts to detect rapid brute-f
 If a user fails to log in three times within a five-minute window, the activity is flagged as suspicious.
 
 
+How to Run
+
+1. Install Python (https://www.python.org)
+2. Download or clone the repository
+3. Open Command Prompt
+4. Navigate to the project folder
+5. Run:
+   python log_analyzer.py
+
+Features
+
+- Reads login attempt logs from a text file
+- Counts failed login attempts
+- Detects possible brute-force attacks
+- Uses timestamps to identify rapid failed attempts
+
 
 Learning Process:
 
@@ -120,5 +136,6 @@ Future Improvements:
 
 Author:
 
-Mooki
+Mooki Wadman
+
 
